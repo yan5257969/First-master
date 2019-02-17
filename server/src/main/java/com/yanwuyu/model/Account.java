@@ -1,6 +1,8 @@
 package com.yanwuyu.model;
 
-public class Account {
+import java.io.Serializable;
+
+public class Account implements Serializable {
     private Integer userid;
 
     private String username;
